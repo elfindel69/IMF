@@ -4341,7 +4341,7 @@ countries = {
 			# channel
 			jersey
 			# france			
-			abbeville montreuil #Ponthieu
+
 		}
 		own_control_conquered = {
 			berwick
@@ -10680,13 +10680,12 @@ countries = {
 
 	#Provence (Union with Naples)
 	PRO = {
-		own_control_core = {
-			aix_en_provence arles brignoles marseille toulon tarascon
-			apt barcelonnette forcalquier sisteron
-			nice barjols castellane digne draguignan frejus grasse puget_theniers
-			cuneo
-		}
+
 		our_cores_conquered_by_others = {
+            aix_en_provence arles brignoles marseille toulon tarascon
+            apt barcelonnette forcalquier sisteron
+            nice barjols castellane digne draguignan frejus grasse puget_theniers
+            cuneo
 			avignon #Controlled by the Pope, but historically owned by Naples
 		}
 
@@ -11375,7 +11374,7 @@ countries = {
 
 	#Savoy - SAV
 	SAV = {
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			bourg_en_bresse belley chambery gex saint_jean_de_maurienne
 			moutiers evian
 			bage thoire
@@ -11470,7 +11469,7 @@ countries = {
 
 	#Saint-Claude Abbey - SCL
 	SCL = {
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			saint_claude
 		}
 
@@ -11488,7 +11487,7 @@ countries = {
 
 	#Geneve - GNV
 	GNV = {
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			geneve annecy la_roche_sur_foron
 		}
 
@@ -13572,8 +13571,7 @@ countries = {
 		own_control_core = {
 			palma ciudadela_de_menorca ibiza manacor pollensa #Kingdom of Mallorca
 			puigcerda prades #County of Cerdanya
-			perpignan #County of Roselló
-			montpellier #Lordship of Montpellier
+
 		}
 
 		starting_technology_level = 3
@@ -14202,6 +14200,10 @@ countries = {
                 evreux harcourt #Normandy
                 mantes #Ile de France
                 longueville #Longueville
+                bernay laigle louviers pont_audemer
+                caen argentan bayeux domfront falaise lisieux pont_douilly
+                cherbourg coutances avranches st_sauveur vire
+                rouen arques fecamp gisors tancarville
 			}
 			own_control_integrated = {
                 dijon semur_en_auxois chatillon_sur_seine
@@ -14287,6 +14289,39 @@ countries = {
                 rethel #C. Rethel
                 chateau_porcien #C. Porcien, vassal of Rethiel
                 narbonne
+                orange
+                perpignan #County of Roselló
+                montpellier #Lordship of Montpellier
+                saint_claude
+                besancon
+                abbeville montreuil #Ponthieu
+                brest carhaix chateaulin chatelaudren le_faou quimper quimperle saint_brieuc st_pol_de_leon treguier
+                nantes blain chateaubriant guerande machecoul
+                rennes dol fougeres monfort_sur_meu saint_malo vitre
+                vannes hennebont josselin ploermel redon rohan
+                bourg_en_bresse belley chambery gex saint_jean_de_maurienne
+                moutiers evian
+                bage thoire
+                vienne
+                grenoble gap briancon pragelato
+                romans la_mure saint_marceilin
+                mevouillon villars
+                la_tour_du_pin
+                faucigny sallanches #Barony of 	Faucigny
+                aix_en_provence arles brignoles marseille toulon tarascon
+                apt barcelonnette forcalquier sisteron
+                nice barjols castellane digne draguignan frejus grasse puget_theniers
+                cuneo
+                geneve annecy la_roche_sur_foron
+                toul
+                verdun fresnes
+                montbeliard
+                metz epinal sarrebourg vic_sur_seille
+                saint_avold
+                belfort ferrette
+                mulhouse
+                ensisheim #Lordship of Upper Alsace
+                colmar
             }
 
 			own_control_conquered = {
@@ -14437,7 +14472,7 @@ countries = {
 
 	#Britanny
 	BRI = {
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			brest carhaix chateaulin chatelaudren le_faou quimper quimperle saint_brieuc st_pol_de_leon treguier
 			nantes blain chateaubriant guerande machecoul
 			rennes dol fougeres monfort_sur_meu saint_malo vitre
@@ -16920,14 +16955,12 @@ countries = {
 
 	#Normandy
 	NRM = {
-		own_control_core = {
-			bernay laigle louviers pont_audemer
-			caen argentan bayeux domfront falaise lisieux pont_douilly
-			cherbourg coutances avranches st_sauveur vire
-			rouen arques fecamp gisors tancarville
-		}
 
 		our_cores_conquered_by_others = {
+            bernay laigle louviers pont_audemer
+            caen argentan bayeux domfront falaise lisieux pont_douilly
+            cherbourg coutances avranches st_sauveur vire
+            rouen arques fecamp gisors tancarville
 			jersey # England
 			evreux harcourt mortain #Evreux
 			longueville #Longueville
@@ -17151,7 +17184,7 @@ countries = {
 
 	#Dauphine
 	DAU = {
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			grenoble gap briancon pragelato
 			romans la_mure saint_marceilin 
 			mevouillon villars 
@@ -17211,7 +17244,7 @@ countries = {
 
 	#Orange
 	ORA = {
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			orange
 		}
 
@@ -17610,7 +17643,7 @@ countries = {
 			kyburg #County of Kyburg
 			bonndorf villingen waldshut #Landgraviate of Breisgau
 			krumbach gunzburg wertingen #Margraviate of Burgau
-			ensisheim #Lordship of Upper Alsace
+
 			waldsee saulgau #Lordship of Waldsee
 		}
 
@@ -35328,7 +35361,7 @@ countries = {
 	}
 
 	CFC = {  # Colmar (South Germany)
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			colmar
 		}
 		starting_technology_level = 3
@@ -35367,7 +35400,7 @@ countries = {
 	}
 
 	MUL = {  # Mulhouse (South Germany)
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			mulhouse
 		}
 		starting_technology_level = 3
@@ -36323,7 +36356,7 @@ countries = {
 	}
 
 	FRT = { #Ferrette
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			belfort ferrette
 		}
 
@@ -36349,7 +36382,7 @@ countries = {
 	}
 
 	BSC = { #Besancon (Free City)
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			besancon
 		}
 
@@ -36369,7 +36402,7 @@ countries = {
 	}
 
 	TUL = { #Toul
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			toul
 		}
 
@@ -36394,7 +36427,7 @@ countries = {
 	}
 
 	VDU = { #Verdun
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			verdun fresnes
 		}
 
@@ -36415,7 +36448,7 @@ countries = {
 	}
 
 	MTB = { #Montbeliard (Appanage)
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			montbeliard
 		}
 
@@ -36456,7 +36489,7 @@ countries = {
 	}
 
 	MTZ = { #Metz
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			metz epinal sarrebourg vic_sur_seille
 			saint_avold
 		}
