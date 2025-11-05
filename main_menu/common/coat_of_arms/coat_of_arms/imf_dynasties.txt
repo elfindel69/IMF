@@ -1,0 +1,24 @@
+
+lefort_dynasty = {
+    pattern = "pattern_solid.dds"
+    color1 = "blue"
+    color2 = "yellow"
+    color3 = "red"
+
+    colored_emblem = {
+        texture = "ce_fleur_de_lis_in_bend_shield.dds"
+        color1 = color2
+        instance = { position = { 0.6 0.51 }  scale = { 0.55 0.55 } }
+    }
+    colored_emblem = {
+        texture = "ce_lion_guardant_wide.dds"
+        color1 = color2
+        color2 = color3
+        instance = { position = { 0.4 0.51 }  scale = { 0.55 0.55 } }
+    }
+    colored_emblem = {
+        texture = "ce_border_shield_thin.dds"
+        color1 = color3
+        color2 = color3
+    }
+}

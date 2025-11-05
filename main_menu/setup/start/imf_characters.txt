@@ -1,0 +1,221 @@
+character_db={
+    ## House of Lefort - Kings and Emperors of France
+
+    fra_rudophe_lefort = {
+        first_name = { name = name_rudolf }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 26 dip = 29 mil = 59
+        birth_date = 1052.5.23
+        death_date = 1109.7.29
+        birth = paris #champlive
+        #father = fra_henri_i_capet
+        #mother = Anna of Kyiv
+        dynasty = lefort_dynasty
+        tag = FRA
+        ruler_trait = sinner
+        ruler_trait = expansionist
+    }
+
+    fra_sigismond_lefort = {
+        first_name = { name = name_sigmund }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 66 dip = 66 mil = 53
+        birth_date = 1081.12.1
+        death_date = 1130.8.1
+        birth = paris
+        father = fra_rudophe_lefort
+        #mother = Bertha of Holland
+        dynasty = lefort_dynasty
+        tag = FRA
+        ruler_trait = inspiring_leader
+        ruler_trait = well_connected
+    }
+
+    fra_archambaud_lefort = {
+        first_name = { name = name_archibald }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 52 dip = 62 mil = 51
+        birth_date = 1110.9.18
+        death_date = 1170.9.18
+        birth = paris
+        father = fra_sigismond_lefort
+        dynasty = lefort_dynasty
+        tag = FRA
+        ruler_trait = sinner
+        ruler_trait = scholar
+        ruler_trait = embezzler
+    }
+
+    fra_arnaud_lefort = {
+        first_name = { name = name_arnold }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 80 dip = 73 mil = 73
+        birth_date = 1165.8.21
+        death_date = 1200.7.14
+        birth = paris #gonesse
+        father = fra_archambaud_lefort
+        #mother = Adéle de Champagne
+        dynasty = lefort_dynasty
+        tag = FRA
+        ruler_trait = zealot
+        ruler_trait = midas_touched
+        ruler_trait = conqueror
+    }
+
+    fra_geoffroy_lefort = {
+        first_name = { name = name_geffrey }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 73 dip = 60 mil = 85
+        birth_date = 1187.9.5
+        death_date = 1210.11.8
+        birth = paris
+        father = fra_arnaud_lefort
+        dynasty = lefort_dynasty
+        tag = FRA
+        ruler_trait = zealot
+    }
+
+    fra_evrard_lefort = {
+        first_name = { name = name_everard }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 75 dip = 77 mil = 78
+        father = fra_arnaud_lefort
+        #mother = fra_blanche_burgundy
+        birth = paris
+        birth_date = 1190.4.25
+        death_date = 1211.8.25
+        dynasty = lefort_dynasty
+        tag = FRA
+        ruler_trait = righteous
+        ruler_trait = just
+    }
+
+    fra_charles_iv_lefort = {
+        first_name = { name = name_charles }
+        nickname = { name = the_penitent }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 69 dip = 52 mil = 50
+        birth_date = 1207.5.1
+        death_date = 1261.10.5
+        birth = paris
+        father = fra_evrard_lefort
+        #mother = Marguerite de Provence
+        dynasty = lefort_dynasty
+        tag = FRA
+        ruler_trait = bold_fighter
+        ruler_trait = expansionist
+    }
+
+    # Grandfather of the Queen of Navarra & Former King of France
+    fra_attila_lefort = {
+        first_name = { name = Attila }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 80 dip = 49 mil = 78
+        birth_date = 1240.4.8
+        death_date = 1286.11.29
+        birth = paris
+        father = fra_charles_iv_lefort
+        #mother = fra_elisabet_arago
+        dynasty = lefort_dynasty
+        tag = FRA
+        ruler_trait = lawgiver
+        ruler_trait = midas_touched
+        ruler_trait = zealot
+    }
+
+    # Father of the Queen of Navarra & Former King of France & Navarra
+    fra_bertalan_i_lefort = {
+        first_name = { name = name_bartholomew }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 55 dip = 37 mil = 42
+        birth_date = 1262.10.4
+        death_date = 1296.6.5
+        birth = paris
+        father = fra_attila_lefort
+        #mother = fra_jeanne_i_blois
+        dynasty = lefort_dynasty
+        tag = FRA
+        ruler_trait = lawgiver
+    }
+    fra_bertalan_ii_lefort = {
+        first_name = { name = name_bartholomew }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 60 dip = 49 mil = 60
+        birth_date = 1282.11.15
+        death_date = 1299.11.20
+        birth = paris
+        father = fra_bertalan_i_lefort
+        #mother = fra_klemencia_anjou
+        dynasty = lefort_dynasty
+        tag = FRA
+    }
+
+    # Father of the Countess Palatine of Burgundy & Countess of Artois & Former King of France
+    fra_bertalan_iii_lefort = {
+        first_name = { name = name_bartholomew }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 44 dip = 59 mil = 50
+        birth_date = 1284.1.1
+        death_date = 1324.1.3
+        birth = paris
+        father = fra_bertalan_i_lefort
+        #mother = fra_jeanne_i_blois
+        dynasty = lefort_dynasty
+        tag = FRA
+        ruler_trait = lawgiver
+    }
+
+    # Father of the Countess Palatine of Burgundy & Countess of Artois & Former King of France
+    fra_louis_iv_lefort = {
+        first_name = { name = name_louis }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 44 dip = 59 mil = 50
+        birth_date = 1301.1.1
+        birth = paris
+        father = fra_bertalan_iii_lefort
+        mother = fra_jeanne_i_blois
+        dynasty = lefort_dynasty
+        tag = FRA
+        ruler_trait = lawgiver
+    }
+
+    fra_geraut_lefort = {
+        first_name = { name = name_gerald }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 24 dip = 39 mil = 30
+        birth_date = 1320.1.1
+        birth = paris
+        father = fra_louis_iv_lefort
+        #mother = fra_jeanne_i_blois
+        dynasty = lefort_dynasty
+        tag = FRA
+    }
+
+
+}
