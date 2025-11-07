@@ -157,7 +157,7 @@ diplomacy_manager = {
 	scripted_oneway = { first = FRA second = SCO type = guarantee }
 	
     #Appanages
-
+    dependency = { first = FRA second = BUR subject_type = appanage }
 
 
     #Vassal, Fief Mouvant of France

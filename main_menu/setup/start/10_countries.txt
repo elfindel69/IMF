@@ -14209,12 +14209,6 @@ countries = {
                 belleme mortagne senonches
 			}
 			own_control_integrated = {
-                dijon semur_en_auxois chatillon_sur_seine
-                chalon_sur_saone charolles autun
-                semur_en_brionnais
-                avallon
-                montcenis
-                aignay arnay beaune auxonne louhans
 
                 gray vesoul dole
                 pontarlier poligny orgelet ornans baume montbozon
@@ -14541,7 +14535,7 @@ countries = {
 
 	#Burgundy (Appanage)
 	BUR = {
-        our_cores_conquered_by_others = {
+        own_control_core = {
 			dijon semur_en_auxois chatillon_sur_seine
 			chalon_sur_saone charolles autun
 			semur_en_brionnais
@@ -14554,7 +14548,7 @@ countries = {
 		include = "expl_western_europe"
 		include = "catholic_monarchy_no_coast"
 		government = {
-			ruler = bur_eudes_iv_burgundy
+			ruler = fra_philippe_de_bourgogne
 
 			ruler_term = { character = fra_hugues_le_grand start_date = 952.12.17 end_date = 956.6.16 regnal_number = 0 }
 			ruler_term = { character = bur_otton_bourgogne start_date = 956.6.16 end_date = 965.2.23 regnal_number = 0 }
@@ -14575,13 +14569,15 @@ countries = {
 			ruler_term = { character = bur_hugues_iv_burgundian start_date = 1218.7.6 end_date = 1272.10.27 regnal_number = 4 }
 			ruler_term = { character = bur_robert_ii_burgundian start_date = 1272.10.27 end_date = 1306.3.21 regnal_number = 2 }
 			ruler_term = { character = bur_hugues_v_burgundian start_date = 1306.3.21 end_date = 1315.5.9 regnal_number = 5 }
-			ruler_term = { character = bur_eudes_iv_burgundy start_date = 1315.5.9 regnal_number = 4 }
+			ruler_term = { character = bur_eudes_iv_burgundy start_date = 1315.5.9 end_date = 1326.5.9 regnal_number = 4 }
+            ruler_term = { character = fra_philippe_de_bourgogne start_date = 1326.5.9 regnal_number = 1 }
 
 			regnal_numbers = {
 				name_robert = 2
 				name_henry = 1
 				name_hugh = 5
 				name_otto = 4
+                name_philip = 1
 			}
 
 			centralization_vs_decentralization = 30
