@@ -14243,7 +14243,7 @@ countries = {
                 lautrec #Vic. de Lautrec
 
                 castres #S. de Castres
-                foix pamier
+                foix pamiers
 
                 lille douai tournai
                 neufchateau_des_vosges #France
@@ -14322,7 +14322,7 @@ countries = {
 			include = "catholic_monarchy"
 
 			government = {
-				heir_selection = salic_law
+				heir_selection = semi_salic_law
 
 				ruler = fra_louis_iv_lefort
 
@@ -14414,7 +14414,7 @@ countries = {
 
 				reforms = {
 					french_feudal_nobility
-					ancient_french_taxation
+					#ancient_french_taxation
 				}
 
 				laws = {
@@ -14429,12 +14429,12 @@ countries = {
 					clergy_literacy_rights
 					auxilium_et_consilium
 					nobles_land_rights
-					noble_leaders_only
-					primacy_of_nobility
-					noble_armies
-					chancellor_nobles
+                    #noble_leaders_only
+                    #primacy_of_nobility
+                    #noble_armies
+                    #chancellor_nobles
 					villes_franches
-					great_offices_of_the_crown_of_france
+                    #great_offices_of_the_crown_of_france
 				}
 			}
 
@@ -16749,7 +16749,7 @@ countries = {
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		include = "catholic_monarchy_no_present"
+		include = "catholic_monarchy_not_present"
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
@@ -16820,7 +16820,7 @@ countries = {
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		include = "catholic_monarchy_no_present"
+		include = "catholic_monarchy_not_present"
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
@@ -16859,7 +16859,7 @@ countries = {
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		include = "catholic_monarchy_no_present"
+		include = "catholic_monarchy_not_present"
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
@@ -16962,7 +16962,7 @@ countries = {
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		include = "catholic_monarchy_no_present"
+		include = "catholic_monarchy_not_present"
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
@@ -36303,7 +36303,7 @@ countries = {
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		include = "catholic_monarchy_no_present"
+		include = "catholic_monarchy_not_present"
 		include = "expl_northern_europe"
 		government = {
 			type = monarchy
@@ -36329,7 +36329,7 @@ countries = {
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		include = "catholic_republic_no_present"
+		include = "catholic_republic_not_present"
 		include = "expl_northern_europe"
 		government = {
 			ruler = random
@@ -36349,7 +36349,7 @@ countries = {
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		include = "catholic_republic_no_present"
+		include = "catholic_republic_not_present"
 		include = "expl_northern_europe"
 		government = {
 			ruler = random
@@ -36374,7 +36374,7 @@ countries = {
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		include = "catholic_republic_no_present"
+		include = "catholic_republic_not_present"
 		include = "expl_northern_europe"
 		government = {
 			ruler = random
@@ -36395,7 +36395,7 @@ countries = {
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		include = "catholic_monarchy_no_present"
+		include = "catholic_monarchy_not_present"
 		include = "expl_northern_europe"
 		government = {
 			type = monarchy
@@ -36437,7 +36437,7 @@ countries = {
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		include = "catholic_monarchy_no_present"
+		include = "catholic_monarchy_not_present"
 		include = "expl_northern_europe"
 		capital = metz
 		government = {
