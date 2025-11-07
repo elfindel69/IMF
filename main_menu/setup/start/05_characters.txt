@@ -8660,7 +8660,7 @@ character_db={
 		birth_date = 1312.1.28
 		birth = gisors # Conflans
 		father = fra_louis_x_capet
-		mother = fra_margarete_burgundian
+		#mother = fra_margarete_burgundian
 		spouse = nav_philip_iii_evreux
 		dynasty = capet_dynasty
 		tag = NAV
@@ -8845,7 +8845,7 @@ character_db={
 		birth_date = 1319.4.26
 		birth = le_mans
 		father = fra_philip_vi_valois
-		mother = fra_jeanne_burgundy
+		#mother = fra_jeanne_burgundy
 		dynasty = valois_dynasty
 		tag = NRM
 	}
@@ -8860,7 +8860,7 @@ character_db={
 		birth_date = 1336.7.1
 		birth = paris
 		father = fra_philip_vi_valois
-		mother = fra_jeanne_burgundy
+		#mother = fra_jeanne_burgundy
 		dynasty = valois_dynasty
 		tag = FRA
 	}
@@ -9326,7 +9326,7 @@ character_db={
 		birth_date = 1279.1.1
 		birth = clermont
 		father = bou_robert_clermont
-		mother = bou_beatrice_burgundian
+		#mother = bou_beatrice_burgundian
 		dynasty = bourbon_dynasty
 		tag = BOU
 		ruler_trait = bold_fighter
@@ -9439,7 +9439,7 @@ character_db={
 		death_date = 1316.1.1
 		birth = clermont
 		father = bou_robert_clermont
-		mother = bou_beatrice_burgundian
+		#mother = bou_beatrice_burgundian
 		dynasty = capet_dynasty
 		tag = BUR
 	}
@@ -9470,7 +9470,7 @@ character_db={
 		birth_date = 1298.9.1 # Between June & November
 		birth = clermont
 		father = bou_robert_clermont
-		mother = bou_beatrice_burgundian
+		#mother = bou_beatrice_burgundian
 		dynasty = capet_dynasty
 		tag = FRA
 	}
@@ -9486,7 +9486,7 @@ character_db={
 		death_date = 1304.1.1
 		birth = clermont
 		father = bou_robert_clermont
-		mother = bou_beatrice_burgundian
+		#mother = bou_beatrice_burgundian
 		spouse = auv_robert_vii_auvergne
 		dynasty = capet_dynasty
 		tag = AUV
@@ -11284,7 +11284,7 @@ character_db={
 		death_date = 1162.6.27
 		birth = dijon
 		father = bur_hugues_ii_burgundian
-		#mother = Mathilde de Turenne
+		mother = fra_blanche_of_burgundy
 		dynasty = burgundy_dynasty
 		tag = BUR
 		ruler_trait = calm
@@ -11296,8 +11296,8 @@ character_db={
 		religion = catholic
 		estate = nobles_estate
 		adm = 26 dip = 54 mil = 64
-		birth_date = 1148.1.1
-		death_date = 1192.8.25
+		birth_date = 1142.1.1
+		death_date = 1218.8.25
 		birth = dijon
 		father = bur_eudes_ii_burgundian
 		#mother = Marie de Blois
@@ -11305,195 +11305,7 @@ character_db={
 		tag = BUR
 		ruler_trait = expansionist
 		ruler_trait = zealot
-	}
-
-	bur_eudes_iii_burgundian = {
-		first_name = { name = name_otto }
-		culture = burgundian
-		religion = catholic
-		estate = nobles_estate
-		adm = 46 dip = 52 mil = 52
-		birth_date = 1165.1.1
-		death_date = 1218.7.6
-		birth = dijon
-		father = bur_hugues_iii_burgundian
-		#mother = Alix de Lorraine
-		dynasty = burgundy_dynasty
-		tag = BUR
-		ruler_trait = lawgiver
-		ruler_trait = bold_fighter
-	}
-
-	# Grandfather of the Duke of Burgundy & Former Duke
-	bur_hugues_iv_burgundian = {
-		first_name = { name = name_hugh }
-		culture = burgundian
-		religion = catholic
-		estate = nobles_estate
-		adm = 36 dip = 54 mil = 74
-		birth_date = 1213.3.9
-		death_date = 1272.10.27
-		birth = chatillon_sur_seine
-		father = bur_eudes_iii_burgundian
-		#mother = Alix de Vergy
-		dynasty = burgundy_dynasty
-		tag = BUR
-		ruler_trait = zealot
-		ruler_trait = bold_fighter
-		ruler_trait = just
-	}
-
-	# Extinct line of the Counts of Nevers, Auxerre & Tonnerre
-
-	bur_eudes_burgundian = {
-		first_name = { name = name_otto }
-		culture = burgundian
-		religion = catholic
-		estate = nobles_estate
-		birth_date = 1230.1.1
-		death_date = 1266.8.4
-		birth = dijon
-		father = bur_hugues_iv_burgundian
-		mother = bur_yolande_dreux
-		dynasty = burgundy_dynasty # Should be dynasty = burgundy_nevers_dynasty # Founders of the Nevers line of the House of Burgundy
-		tag = BUR
-	}
-
-	# Grandmother of the Count of Flanders, Nevers & Rethel & Former Countess of Nevers
-	nev_yolande_i_burgundian = {
-		first_name = { name = name_yolande }
-		culture = burgundian
-		religion = catholic
-		estate = nobles_estate
-		female = yes
-		birth_date = 1247.12.1
-		death_date = 1280.6.2
-		birth = auxerre
-		father = bur_eudes_burgundian
-		mother = bou_mathilde_ii_bourbon
-		spouse = vls_jean_tristan_capet
-		spouse = fla_robert_iii_dampierre
-		dynasty = burgundy_dynasty # Should be dynasty = burgundy_nevers_dynasty
-		tag = NEV
-	}
-
-	ton_marguerite_i_burgundian = {
-		first_name = { name = name_margaret }
-		culture = burgundian
-		religion = catholic
-		estate = nobles_estate	
-		female = yes
-		birth_date = 1250.1.1
-		death_date = 1308.9.4
-		birth = auxerre
-		father = bur_eudes_burgundian
-		mother = bou_mathilde_ii_bourbon
-		spouse = nap_charles_i_anjou
-		dynasty = burgundy_dynasty # Should be dynasty = burgundy_nevers_dynasty
-		tag = TON
-		ruler_trait = pious
-		ruler_trait = benevolent
-	}
-
-	# Grandmother of the Count of Auxerre & the Countess of Tonnerre & Former Countess of Auxerre
-	aux_alix_i_burgundian = {
-		first_name = { name = name_alice }
-		culture = burgundian
-		religion = catholic
-		estate = nobles_estate	
-		female = yes
-		birth_date = 1251.1.1
-		death_date = 1290.1.1
-		birth = auxerre
-		father = bur_eudes_burgundian
-		mother = bou_mathilde_ii_bourbon
-		spouse = aux_jean_i_chalon
-		dynasty = burgundy_dynasty # Should be dynasty = burgundy_nevers_dynasty
-		tag = AUX
-	}
-
-	# Grandfather of the Duke of Bourbon
-	bur_jean_burgundian = {
-		first_name = { name = name_john }
-		culture = burgundian
-		religion = catholic
-		estate = nobles_estate
-		birth_date = 1231.1.1
-		death_date = 1267.9.17
-		birth = dijon
-		father = bur_hugues_iv_burgundian
-		mother = bur_yolande_dreux
-		dynasty = burgundy_dynasty
-		tag = BUR
-	}
-
-	# Mother of the Duke of Bourbon & Previous Lady of Bourbon
-	bou_beatrice_burgundian = { 
-		first_name = { name = name_beatrix }
-		culture = berrichon
-		religion = catholic
-		estate = nobles_estate
-		female = yes
-		birth_date = 1257.1.1
-		death_date = 1310.10.1
-		birth = dijon
-		father = bur_jean_burgundian
-		mother = bur_agnes_bourbon
-		spouse = bou_robert_clermont
-		dynasty = burgundy_dynasty
-		tag = BOU
-	}
-	
-	brb_adelaide_burgundian = {
-		first_name = { name = name_adelaide }
-		culture = french
-		religion = catholic
-		estate = nobles_estate
-		female = yes
-		birth_date = 1233.1.1
-		death_date = 1273.10.20
-		birth = brussels
-		father = bur_hugues_iv_burgundian
-		mother = bur_yolande_dreux
-		spouse = brb_hendrik_iii_van_brabant
-		dynasty = burgundy_dynasty
-		tag = BRB
-	}
-
-	fra_marguerite_burgundian = { 
-		first_name = { name = name_margaret }
-		culture = burgundian
-		religion = catholic
-		estate = nobles_estate
-		female = yes
-		birth_date = 1235.1.1
-		death_date = 1277.8.27
-		birth = dijon
-		father = bur_hugues_iv_burgundian
-		mother = bur_yolande_dreux
-		spouse = fra_guy_vi_limoges
-		dynasty = burgundy_dynasty
-		tag = FRA
-	}
-
-	# Father of the Duke of Burgundy & Former Duke
-	bur_robert_ii_burgundian = {
-		first_name = { name = name_robert }
-		culture = burgundian
-		religion = catholic
-		estate = nobles_estate
-		adm = 64 dip = 85 mil = 46
-		birth_date = 1248.1.1
-		death_date = 1306.3.21
-		birth = dijon
-		father = bur_hugues_iv_burgundian
-		mother = bur_yolande_dreux
-		dynasty = burgundy_dynasty
-		tag = BUR
-		ruler_trait = righteous
-		ruler_trait = silver_tongue
-		ruler_trait = well_connected
-	}
+    }
 
 	# Sister of the Duke of Burgundy
 	bur_blanche_burgundian = {
@@ -11505,256 +11317,14 @@ character_db={
 		female = yes
 		birth_date = 1288.1.1
 		birth = dijon
-		father = bur_robert_ii_burgundian
-		mother = bur_agnes_capet
-		spouse = fra_bertalan_iii_lefort   # sav_edouard_i_savoy #TODO -- to be refined
+		father = bur_jean_i_bourgogne
+		#mother =Catherine de Lyonnais
+		spouse = fra_bertalan_iii_lefort
 		dynasty = burgundy_dynasty
 		tag = BUR
 	}
 
-	# Mother of the Queen of Navarra & Sister of the Duke of Burgundy
-	fra_margarete_burgundian = {
-		first_name = { name = name_margaret }
-		culture = burgundian
-		religion = catholic
-		estate = nobles_estate	
-		female = yes
-		birth_date = 1290.1.1
-		death_date = 1315.4.30
-		birth = dijon
-		father = bur_robert_ii_burgundian
-		mother = bur_agnes_capet
-		spouse = fra_louis_x_capet
-		dynasty = burgundy_dynasty
-		tag = FRA
-	}
 
-	# Queen Consort of France & Sister of the Duke of Burgundy
-	fra_jeanne_burgundy = {
-		first_name = { name = name_joanna }
-		nickname = { name = Lame }
-		culture = burgundian
-		religion = catholic
-		estate = nobles_estate
-		adm = 69 dip = 26 mil = 16
-		female = yes
-		birth_date = 1293.1.1
-		birth = dijon
-		father = bur_robert_ii_burgundian
-		mother = bur_agnes_capet
-		spouse = fra_philip_vi_valois
-		dynasty = burgundy_dynasty
-		tag = FRA
-		ruler_trait = well_connected
-	}
-
-	# Brother of the Duke of Burgundy and Previous Duke
-	bur_hugues_v_burgundian = {
-		first_name = { name = name_hugh }
-		culture = burgundian
-		religion = catholic
-		estate = nobles_estate
-		birth_date = 1294.1.1
-		death_date = 1315.5.9
-		birth = dijon
-		father = bur_robert_ii_burgundian
-		mother = bur_agnes_capet
-		dynasty = burgundy_dynasty
-		tag = BUR
-	}
-
-	# Duke of Burgundy
-	bur_eudes_iv_burgundy = {
-		first_name = { name = name_otto }
-		culture = burgundian
-		religion = catholic
-		estate = nobles_estate
-		adm = 34 dip = 56 mil = 41
-		birth_date = 1295.1.1
-		birth = dijon
-		father = bur_robert_ii_burgundian
-		mother = bur_agnes_capet
-		dynasty = burgundy_dynasty
-		tag = BUR
-		ruler_trait = just
-		ruler_trait = charismatic_negotiator
-	}
-
-	# Son & Heir of the Duke of Burgundy & the Countess Palatine of Burgundy
-	bur_philip_i_burgundy = {
-		first_name = { name = name_philip }
-		nickname = { name = nick_the_lord }
-		culture = burgundian
-		religion = catholic
-		estate = nobles_estate
-		father = bur_eudes_iv_burgundy
-		mother = bur_jeanne_iii_capet
-		birth_date = 1323.11.10
-		birth = dijon
-		dynasty = burgundy_dynasty
-		tag = BUR
-	}
-
-	# Brother of the Duke of Burgundy and Former Prince of Achaea
-	ach_louis_burgundy = {
-		first_name = { name = name_louis }
-		culture = burgundian
-		religion = catholic
-		estate = nobles_estate
-		adm = 34 dip = 30 mil = 75
-		birth_date = 1297.1.1
-		death_date = 1316.8.2
-		birth = dijon
-		father = bur_robert_ii_burgundian
-		mother = bur_agnes_capet
-		dynasty = burgundy_dynasty
-		tag = ACH
-	}
-
-	# Mother of the Count of Bar & Sister of the Duke of Burgundy
-	bar_marie_burgundian = {
-		first_name = { name = name_mary }
-		culture = burgundian
-		religion = catholic
-		estate = nobles_estate
-		female = yes
-		birth_date = 1298.1.1
-		death_date = 1336.1.1
-		birth = dijon
-		father = bur_robert_ii_burgundian
-		mother = bur_agnes_capet
-		spouse = bar_edouard_i_scarpone
-		dynasty = burgundy_dynasty
-		tag = BAR
-	}
-
-	# Dead Count Consort of Tonnerre
-	ton_robert_burgundy = {
-		first_name = { name = name_robert }
-		culture = burgundian
-		religion = catholic
-		estate = nobles_estate
-		birth_date = 1302.1.1
-		death_date = 1334.1.1
-		birth = dijon
-		father = bur_robert_ii_burgundian
-		mother = bur_agnes_capet
-		dynasty = burgundy_dynasty
-		tag = TON
-	}
-
-	# Extinct Line of the Dauphins of Viennois
-
-	dau_andre_dauphin_bourgogne = {
-		first_name = { name = name_andrew }
-		culture = burgundian
-		religion = catholic
-		estate = nobles_estate
-		adm = 45 dip = 38 mil = 27	
-		birth_date = 1184.1.1
-		death_date = 1237.3.14
-		birth = dijon
-		father = bur_hugues_iii_burgundian
-		mother = dau_beatrix_albon
-		dynasty = burgundy_dynasty # Should be dynasty = burgundy_viennois_dynasty # Founder of the Viennois line of the House of Burgundy
-		tag = DAU
-		ruler_trait = pious
-		ruler_trait = benevolent
-	}
-
-	mon_beatrix_viennois = {
-		first_name = { name = name_beatrix }
-		culture = arpitan
-		religion = catholic
-		estate = nobles_estate	
-		female = yes
-		birth_date = 1205.1.1
-		death_date = 1248.9.18
-		birth = vienne
-		father = dau_andre_dauphin_bourgogne
-		#mother = Béatrice de Sabran
-		spouse = mon_amaury_vi_montfort
-		dynasty = burgundy_dynasty # Should be dynasty = burgundy_viennois_dynasty
-		tag = SAV
-	}
-
-	dau_guigues_vii_viennois = {
-		first_name = { name = name_wigo }
-		culture = arpitan
-		religion = catholic
-		estate = nobles_estate
-		adm = 55 dip = 45 mil = 50
-		birth_date = 1225.1.1
-		death_date = 1269.1.1
-		birth = vienne
-		father = dau_andre_dauphin_bourgogne
-		mother = dau_beatrice_monferrato_ii
-		dynasty = burgundy_dynasty # Should be dynasty = burgundy_viennois_dynasty
-		tag = DAU
-		ruler_trait = intricate_web_weaver
-		ruler_trait = secretive
-	}
-	dau_jean_i_viennois = {
-		first_name = { name = name_john }
-		culture = arpitan
-		religion = catholic
-		estate = nobles_estate
-		birth_date = 1264.1.1
-		death_date = 1282.9.24
-		birth = faucigny
-		father = dau_guigues_vii_viennois
-		mother = sav_beatrix_faucigny
-		dynasty = burgundy_dynasty # Should be dynasty = burgundy_viennois_dynasty
-		tag = DAU
-	}
-
-	# Grandmother of the Dauphin of Viennois
-	dau_anne_viennois = {
-		first_name = { name = name_anna }
-		culture = arpitan
-		religion = catholic
-		estate = nobles_estate
-		female = yes
-		birth_date = 1264.1.1
-		death_date = 1303.1.1
-		birth = faucigny
-		father = dau_guigues_vii_viennois
-		mother = sav_beatrix_faucigny
-		spouse = dau_humbert_i_de_la_tour
-		dynasty = burgundy_dynasty # Should be dynasty = burgundy_viennois_dynasty
-		tag = DAU
-	}	
-
-	fcb_mathilde_burgundian = {
-		first_name = { name = name_matilda }
-		culture = burgundian
-		religion = catholic
-		female = yes
-		birth_date = 1190.1.1
-		death_date = 1242.3.26
-		birth = dijon
-		father = bur_hugues_iii_burgundian
-		mother = dau_beatrix_albon
-		spouse = fcb_jean_i_chalon
-		dynasty = burgundy_dynasty
-		tag = FCB
-	}
-
-	sav_anne_burgundian = {
-		first_name = { name = name_anna }
-		culture = burgundian
-		religion = catholic
-		estate = nobles_estate	
-		female = yes
-		birth_date = 1192.1.1
-		death_date = 1242.1.1
-		birth = dijon
-		father = bur_hugues_iii_burgundian
-		mother = dau_beatrix_albon
-		spouse = sav_amedee_iv_savoy
-		dynasty = burgundy_dynasty
-		tag = SAV
-	}
 
 	# Line of the Kings of Portugal
 
@@ -12285,7 +11855,7 @@ character_db={
 		death_date = 1266.11.12
 		birth = chalon_sur_saone
 		father = fcb_jean_i_chalon
-		mother = fcb_mathilde_burgundian
+		#mother = fcb_mathilde_burgundian
 		dynasty = chalon_dynasty
 		tag = FCB
 	}
@@ -12451,7 +12021,7 @@ character_db={
 		death_date = 1304.1.1
 		birth = auxerre
 		father = aux_jean_i_chalon
-		mother = aux_alix_i_burgundian
+		#mother = aux_alix_i_burgundian
 		dynasty = chalon_dynasty # Should be dynasty = chalon_auxerre_dynasty # Founder of the Auxerre line of the House of Chalon/Ivree
 		tag = AUX
 	}
@@ -12582,7 +12152,7 @@ character_db={
 		father = aux_guillaume_vi_chalon
 		mother = fra_elionor_savoy
 		birth = auxerre
-		spouse = ton_robert_burgundy
+		#spouse = ton_robert_burgundy
 		dynasty = chalon_dynasty # Should be dynasty = chalon_auxerre_dynasty
 		tag = TON
 	}
@@ -19021,7 +18591,7 @@ character_db={
 		death_date = 1322.7.22
 		birth = bruges
 		father = fla_robert_iii_dampierre
-		mother = nev_yolande_i_burgundian
+		#mother = nev_yolande_i_burgundian
 		dynasty = dampierre_dynasty # Should be dynasty = dampierre_flanders_dynasty
 		tag = NEV
 	}
@@ -19088,7 +18658,7 @@ character_db={
 		death_date = 1331.6.26
 		birth = nevers
 		father = fla_robert_iii_dampierre
-		mother = nev_yolande_i_burgundian
+		#mother = nev_yolande_i_burgundian
 		dynasty = dampierre_dynasty # Should be dynasty = dampierre_flanders_dynasty
 		tag = FLA
 	}
@@ -19120,7 +18690,7 @@ character_db={
 		death_date = 1313.1.1
 		birth = bruges
 		father = fla_robert_iii_dampierre
-		mother = nev_yolande_i_burgundian
+		#mother = nev_yolande_i_burgundian
 		#spouse = hai_gautier_ii_de_enghien
 		dynasty = dampierre_dynasty # Should be dynasty = dampierre_flanders_dynasty
 		tag = HAI
@@ -20795,7 +20365,7 @@ character_db={
 		death_date = 1290.6.1
 		birth = limoux
 		father = fra_guy_vi_limoges
-		mother = fra_marguerite_burgundian
+		#mother = fra_marguerite_burgundian
 		spouse = bri_arthur_ii_dreux
 		dynasty = limoges_dynasty
 		tag = BRI
@@ -22089,7 +21659,7 @@ character_db={
 		death_date = 1249.1.1
 		birth = monfort_lamaury
 		father = mon_amaury_vi_montfort
-		mother = mon_beatrix_viennois
+		#mother = mon_beatrix_viennois
 		dynasty = montfort_dynasty
 		tag = MON
 	}
@@ -22155,7 +21725,7 @@ character_db={
 		death_date = 1270.1.1
 		birth = monfort_lamaury
 		father = mon_amaury_vi_montfort
-		mother = mon_beatrix_viennois
+		#mother = mon_beatrix_viennois
 		spouse = aum_ferdinand_ii_ponthieu
 		dynasty = montfort_dynasty
 		tag = AUM
@@ -24056,7 +23626,7 @@ character_db={
 		death_date = 1259.1.1
 		birth = catania
 		father = sav_amedee_iv_savoy
-		mother = sav_anne_burgundian
+		#mother = sav_anne_burgundian
 		spouse = sic_manfredi_i_sicilia
 		dynasty = savoy_dynasty
 		tag = SIC
@@ -24087,7 +23657,7 @@ character_db={
 		death_date = 1268.1.1
 		birth = trevoux
 		father = sav_amedee_iv_savoy
-		mother = sav_anne_burgundian
+		#mother = sav_anne_burgundian
 		spouse = mfa_bonifacio_ii_monferrato
 		dynasty = savoy_dynasty
 		tag = MFA
@@ -24882,7 +24452,7 @@ character_db={
 		birth_date = 1315.1.1
 		birth = bar_le_duc
 		father = bar_edouard_i_scarpone
-		mother = bar_marie_burgundian
+		#mother = bar_marie_burgundian
 		dynasty = de_bar_dynasty
 		tag = BAR
 	}
@@ -24898,7 +24468,7 @@ character_db={
 		birth_date = 1322.1.1
 		birth = bar_le_duc
 		father = bar_edouard_i_scarpone
-		mother = bar_marie_burgundian
+		#mother = bar_marie_burgundian
 		dynasty = de_bar_dynasty
 		tag = BAR
 	}
@@ -25278,7 +24848,7 @@ character_db={
 		death_date = 1319.3.5
 		birth = vienne
 		father = dau_humbert_i_de_la_tour
-		mother = dau_anne_viennois
+		#mother = dau_anne_viennois
 		dynasty = tour_du_pin_dynasty
 		tag = DAU
 		ruler_trait = lawgiver
@@ -25327,7 +24897,7 @@ character_db={
 		death_date = 1323.1.1 # Unknown, but earlier than husband
 		birth = vienne
 		father = dau_humbert_i_de_la_tour
-		mother = dau_anne_viennois
+		#mother = dau_anne_viennois
 		spouse = frz_jean_i_albon
 		dynasty = tour_du_pin_dynasty
 		tag = FRZ
@@ -25344,7 +24914,7 @@ character_db={
 		death_date = 1323.1.1 # Unknown, but earlier than husband
 		birth = vienne
 		father = dau_humbert_i_de_la_tour
-		mother = dau_anne_viennois
+        #mother = dau_anne_viennois
 		spouse = sal_federico_del_vasto
 		dynasty = tour_du_pin_dynasty
 		tag = SAL
@@ -25361,7 +24931,7 @@ character_db={
 		death_date = 1328.1.1
 		birth = vienne
 		father = dau_humbert_i_de_la_tour
-		mother = dau_anne_viennois
+		#mother = dau_anne_viennois
 		dynasty = tour_du_pin_dynasty
 		tag = PIE
 	}
@@ -25377,7 +24947,7 @@ character_db={
 		death_date = 1337.1.1
 		birth = vienne
 		father = dau_humbert_i_de_la_tour
-		mother = dau_anne_viennois
+		#mother = dau_anne_viennois
 		spouse = sav_philippe_i_savoy_achaia
 		dynasty = tour_du_pin_dynasty
 		tag = PIE
@@ -81662,7 +81232,7 @@ adm = 31 dip = 34 mil = 24
 		death_date = 1272.4.29
 		birth = brussels
 		father = brb_hendrik_iii_van_brabant
-		mother = brb_adelaide_burgundian
+		#mother = brb_adelaide_burgundian
 		dynasty = reginar_dynasty
 		tag = BRB
 	}
@@ -81679,7 +81249,7 @@ adm = 31 dip = 34 mil = 24
 		death_date = 1294.5.3
 		birth = leuven
 		father = brb_hendrik_iii_van_brabant
-		mother = brb_adelaide_burgundian
+		#mother = brb_adelaide_burgundian
 		dynasty = reginar_dynasty
 		tag = BRB
 		ruler_trait = conqueror
@@ -81869,7 +81439,7 @@ adm = 31 dip = 34 mil = 24
 		death_date = 1322.1.12
 		birth = leuven
 		father = brb_hendrik_iii_van_brabant
-		mother = brb_adelaide_burgundian
+		#mother = brb_adelaide_burgundian
 		spouse = fra_philippe_iii_capet
 		dynasty = reginar_dynasty
 		tag = BRB
@@ -81886,7 +81456,7 @@ adm = 31 dip = 34 mil = 24
 		death_date = 1302.7.11
 		birth = brussels
 		father = brb_hendrik_iii_van_brabant
-		mother = brb_adelaide_burgundian
+		#mother = brb_adelaide_burgundian
 		dynasty = reginar_dynasty
 		tag = BRB
 		general_trait = defensive_planner

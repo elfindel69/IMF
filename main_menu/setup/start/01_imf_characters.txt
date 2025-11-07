@@ -48,7 +48,7 @@ character_db={
         birth = paris
         father = fra_rudophe_lefort
         #mother = Adelaide de Sens
-        #spouse = Geoffroi de Bourgogne
+        spouse = bur_hugues_ii_burgundian
         dynasty = lefort_dynasty
         tag = FRA
     }
@@ -547,7 +547,226 @@ character_db={
 
 
     ## Lefort - Bourgogne line
-    fra_louis_de_bourgogne = {
+    bur_hugues_iv_bourgogne = {
+        first_name = { name = name_hugh }
+        culture = burgundian
+        religion = catholic
+        estate = nobles_estate
+        adm = 46 dip = 54 mil = 44
+        birth_date = 1170.1.1
+        death_date = 1222.8.25
+        birth = dijon
+        father = bur_hugues_iii_burgundian
+        #mother = Alix de Lorraine
+        dynasty = burgundy_dynasty
+        tag = BUR
+        ruler_trait = zealot
+    }
+
+    bur_eudes_iii_bourgogne = {
+        first_name = { name = name_otto }
+        culture = burgundian
+        religion = catholic
+        estate = nobles_estate
+        adm = 46 dip = 54 mil = 44
+        birth_date = 1193.1.1
+        death_date = 1249.8.25
+        birth = dijon
+        father = bur_hugues_iv_bourgogne
+        #mother = Yolande de Nevers
+        dynasty = burgundy_dynasty
+        tag = BUR
+        ruler_trait = lawgiver
+    }
+
+    bur_hugues_v_bourgogne = {
+        first_name = { name = name_hugh }
+        culture = burgundian
+        religion = catholic
+        estate = nobles_estate
+        adm = 46 dip = 54 mil = 44
+        birth_date = 1215.1.1
+        death_date = 1278.8.25
+        birth = dijon
+        father = bur_eudes_iii_bourgogne
+        #mother = Beatrix de Forez
+        dynasty = burgundy_dynasty
+        tag = BUR
+        ruler_trait = zealot
+    }
+
+    bur_jean_i_bourgogne = {
+        first_name = { name = name_john }
+        culture = burgundian
+        religion = catholic
+        estate = nobles_estate
+        adm = 46 dip = 54 mil = 44
+        birth_date = 1240.1.1
+        death_date = 1303.8.25
+        birth = dijon
+        father = bur_eudes_iii_bourgogne
+        #mother = Isabelle de Savoie
+        dynasty = burgundy_dynasty
+        tag = BUR
+        ruler_trait = zealot
+    }
+
+    bur_marguerite_de_bourgogne = {
+        first_name = { name = name_margaret }
+        culture = burgundian
+        religion = catholic
+        estate = nobles_estate
+        adm = 40 dip = 44 mil = 34
+        female = yes
+        birth_date = 1243.1.1
+        death_date = 1295.8.25
+        birth = dijon
+        father = bur_eudes_iii_bourgogne
+        #mother = Isabelle de Savoie
+        dynasty = burgundy_dynasty
+        tag = BUR
+    }
+
+    bur_pierre_de_bourgogne = {
+        first_name = { name = name_peter }
+        culture = burgundian
+        religion = catholic
+        estate = nobles_estate
+        adm = 46 dip = 47 mil = 42
+        birth_date = 1247.1.1
+        death_date = 1310.8.25
+        birth = dijon
+        father = bur_eudes_iii_bourgogne
+        #mother = Isabelle de Savoie
+        dynasty = burgundy_dynasty
+        tag = BUR
+        ruler_trait = zealot
+    }
+
+    bur_agnes_de_bourgogne = {
+        first_name = { name = name_peter }
+        culture = burgundian
+        religion = catholic
+        estate = clergy_estate
+        adm = 46 dip = 47 mil = 32
+        birth_date = 1251.1.1
+        death_date = 1302.8.25
+        birth = dijon
+        father = bur_eudes_iii_bourgogne
+        #mother = Isabelle de Savoie
+        dynasty = burgundy_dynasty
+        tag = BUR
+    }
+
+    bur_hugues_vi_bourgogne = {
+        first_name = { name = name_hugh }
+        culture = burgundian
+        religion = catholic
+        estate = nobles_estate
+        adm = 46 dip = 54 mil = 44
+        birth_date = 1266.1.1
+        death_date = 1314.8.25
+        birth = dijon
+        father = bur_jean_i_bourgogne
+        #mother = Catherine de lyonnais
+        dynasty = burgundy_dynasty
+        tag = BUR
+        ruler_trait = zealot
+    }
+
+    bur_louis_i_bourgogne = {
+        first_name = { name = name_louis }
+        culture = burgundian
+        religion = catholic
+        estate = nobles_estate
+        adm = 46 dip = 54 mil = 44
+        birth_date = 1278.1.1
+        death_date = 1328.8.25
+        birth = dijon
+        father = bur_jean_i_bourgogne
+        #mother = Catherine de lyonnais
+        dynasty = burgundy_dynasty
+        tag = BUR
+    }
+
+    bur_marguerite_de_forez = {
+        first_name = { name = name_louis }
+        culture = burgundian
+        religion = catholic
+        estate = nobles_estate
+        adm = 46 dip = 54 mil = 44
+        female = yes
+        birth_date = 1278.1.1
+        death_date = 1328.8.25
+        birth = dijon
+        father = bur_jean_i_bourgogne
+        #mother = Catherine de lyonnais
+        dynasty = burgundy_dynasty
+        tag = BUR
+    }
+
+    bur_eudes_iv_bourgogne = {
+        first_name = { name = name_otto }
+        culture = burgundian
+        religion = catholic
+        estate = nobles_estate
+        adm = 46 dip = 54 mil = 44
+        birth_date = 1289.1.1
+        death_date = 1326.8.25
+        birth = dijon
+        father = bur_hugues_vi_bourgogne
+        #mother = Alix de Lorraine
+        dynasty = burgundy_dynasty
+        tag = BUR
+        ruler_trait = peaceful
+    }
+    bur_jeanne_de_savoie = {
+        first_name = { name = name_joanna }
+        culture = burgundian
+        religion = catholic
+        estate = nobles_estate
+        adm = 46 dip = 54 mil = 44
+        female = yes
+        birth_date = 1278.1.1
+        death_date = 1328.8.25
+        birth = dijon
+        father = bur_hugues_vi_bourgogne
+        #mother = Alix de Lorraine
+        dynasty = burgundy_dynasty
+        tag = BUR
+    }
+    bur_hugues_de_bourgogne = {
+        first_name = { name = name_hugh }
+        culture = burgundian
+        religion = catholic
+        estate = nobles_estate
+        adm = 46 dip = 54 mil = 44
+        birth_date = 1295.1.1
+        death_date = 1316.8.25
+        birth = dijon
+        father = bur_hugues_vi_bourgogne
+        #mother = Alix de Lorraine
+        dynasty = burgundy_dynasty
+        tag = BUR
+        ruler_trait = peaceful
+    }
+
+    bur_marguerite_neuchatel = {
+        first_name = { name = name_joanna }
+        culture = burgundian
+        religion = catholic
+        estate = nobles_estate
+        adm = 46 dip = 54 mil = 44
+        female = yes
+        birth_date = 1305.10.2
+        birth = dijon
+        father = bur_louis_i_bourgogne
+        #mother = Beatrix de Provence
+        dynasty = burgundy_dynasty
+        tag = BUR
+    }
+
+    fra_louis_lefort_bourgogne = {
         first_name = { name = name_louis }
         culture = burgundian
         religion = catholic
@@ -561,7 +780,7 @@ character_db={
         tag = BUR
     }
 
-    fra_henri_de_bourgogne = {
+    fra_henri_lefort_bourgogne = {
         first_name = { name = name_henry }
         culture = burgundian
         religion = catholic
