@@ -14210,10 +14210,7 @@ countries = {
 			}
 			own_control_integrated = {
 
-                gray vesoul dole
-                pontarlier poligny orgelet ornans baume montbozon
-                # own_control_integrated, but culture accepted
-                luxeuil salins_les_bains
+
 
 
                 # own_control_integrated, but culture accepted
@@ -14282,8 +14279,7 @@ countries = {
                 orange
                 perpignan #County of Roselló
                 montpellier #Lordship of Montpellier
-                saint_claude
-                besancon
+
                 abbeville montreuil #Ponthieu
 
 
@@ -14612,11 +14608,13 @@ countries = {
 
 	#Franche-Comté (Vassal)
 	FCB = {
-        our_cores_conquered_by_others = {
+        own_control_core = {
 			gray vesoul dole
 			pontarlier poligny orgelet ornans baume montbozon
 			# own_control_integrated, but culture accepted
 			luxeuil salins_les_bains
+            saint_claude
+            besancon
 		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -14706,7 +14704,7 @@ countries = {
 			arpitan
 		}
 
-		capital = dole
+		capital = besancon
 		country_rank = rank_county
 	}
 

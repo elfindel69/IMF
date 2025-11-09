@@ -163,13 +163,15 @@ diplomacy_manager = {
     #Vassal, Fief Mouvant of France
     dependency = { first = FRA second = BRI subject_type = vassal }
     dependency = { first = FRA second = FLA subject_type = vassal start_date = 1305.6.23 } #Reined in as a vassal of France by the Treaty of Athis-sur-Orge in 1305, confirmed after the Battle of Cassel in 132
-
-    #Vassals of vassals
-    dependency = { first = FLA second = NAM subject_type = vassal }
     dependency = { first = FRA second = SAV subject_type = vassal }
     dependency = { first = FRA second = PRO subject_type = vassal }
     dependency = { first = FRA second = DAU subject_type = vassal }
     dependency = { first = FRA second = NRM subject_type = vassal }
+    dependency = { first = FRA second = FCB subject_type = vassal }
+
+    #Vassals of vassals
+    dependency = { first = FLA second = NAM subject_type = vassal }
+
     #-------Italy-------
     dependency = { first = NAP second = ACH subject_type = vassal }
     dependency = { first = ACH second = NAX subject_type = vassal }

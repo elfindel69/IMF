@@ -7,5 +7,6 @@
 	"tags":	["Alternative history", "Flags", "Map"],
 	"relationships":	[],
 	"game_custom_data":	{
-}
+    },
+    "game_id" : "eu5"
 }
